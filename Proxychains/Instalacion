@@ -1,0 +1,10 @@
+# En Debian/Ubuntu
+sudo apt update
+sudo apt install proxychains4
+
+# En Centos/RedHat
+sudo yum update
+sudo yum install proxychains4
+
+# En Arch/Manjaro
+sudo pacman -S proxychains-ng
