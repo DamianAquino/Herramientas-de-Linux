@@ -1,0 +1,7 @@
+# Archivo de configuracion
+sudo nano /etc/proxychains.conf
+
+# Agregar la siguiente linea
+socks5 127.0.0.1 9050
+
+## Lo siguiente seria enrutar el trafico a traves de la interfaz que hayamos asignado y con la ip y puerto podremos enrutar trafico hacia la red Tor.
